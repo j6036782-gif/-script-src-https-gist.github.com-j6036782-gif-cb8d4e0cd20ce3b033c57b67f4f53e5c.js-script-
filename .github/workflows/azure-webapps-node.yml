@@ -72,7 +72,7 @@ jobs:
     - name: 'Deploy to Azure WebApp'
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
-      with:
+      with:[![.github/workflows/azure-webapps-node.yml](https://github.com/j6036782-gif/-script-src-https-gist.github.com-j6036782-gif-cb8d4e0cd20ce3b033c57b67f4f53e5c.js-script-/actions/workflows/azure-webapps-node.yml/badge.svg)](https://github.com/j6036782-gif/-script-src-https-gist.github.com-j6036782-gif-cb8d4e0cd20ce3b033c57b67f4f53e5c.js-script-/actions/workflows/azure-webapps-node.yml)
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
